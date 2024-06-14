@@ -7,7 +7,7 @@ on:
     branches: [master]
   workflow_dispatch:
 jobs:
-  lints:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
