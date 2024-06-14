@@ -45,3 +45,4 @@ to run instrumental tests
 ./gradlew connectedCheck
 to check instrumental test report 
 open app/build/reports/androidTests/connected/index.html
+./gradlew assembleDebug --stacktrace - assemble build
