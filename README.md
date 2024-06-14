@@ -41,3 +41,7 @@ to run unit tests
 ./gradlew test
 to check unit test report
 open app/build/reports/tests/testDebugUnitTest/index.html
+to run instrumental tests
+./gradlew connectedCheck
+to check instrumental test report 
+open app/build/reports/androidTests/connected/index.html
