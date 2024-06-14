@@ -32,3 +32,12 @@ Android app to manage expenses
 The MIT License (MIT)
 
 Copyright (c) 2016 Ajit Singh
+
+commands:
+
+To check lint issues
+./gradlew lintDebug
+to run unit tests
+./gradlew test
+to check unit test report
+open app/build/reports/tests/testDebugUnitTest/index.html
